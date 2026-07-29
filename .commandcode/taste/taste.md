@@ -1,0 +1,1 @@
+- Uses the shorthand "model" to check the current AI model configuration. Confidence: 0.8
