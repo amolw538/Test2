@@ -12,13 +12,13 @@ pipeline {
         stage('Check Environment') {
             steps {
                 sh 'java -version'
-                sh 'mvn -version'
+                sh '/usr/local/bin/mvn -version'
             }
         }
 
         stage('Run Selenium Tests') {
             steps {
-                sh 'mvn clean test'
+                sh '/usr/local/bin/mvn clean test'
             }
         }
     }
